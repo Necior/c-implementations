@@ -24,8 +24,7 @@ static int right_id(int i) {
 }
 
 static void print_heap(heap *h) {
-    int i;
-    for(i = 1; i <= h->i; ++i)
+    for(int i = 1; i <= h->i; ++i)
         printf("%d ", h->heap[i]);
     printf("\n");
 }
